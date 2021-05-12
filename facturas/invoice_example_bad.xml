@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante Version="3.3" Serie="CFDI" Folio="35" Fecha="2020-04-02T13:59:41" Sello="WfC8T0wdLpjE2NWRV1J89PSJodNoggXxP22tGNPtc9EugjeFGvdW7+zM10SSe3xijCPSsDNtND+eQvCihY/wh3cqO1Z3W1rmirfR6n4ysuk0B0YHsiiy+gQ9ZWtJ3XKuAeT3SQ4FYrkXhg4y9KzlMxO2krHcrDYE8yG0Iebp28TtlkdRx4qlwFPPjr7JL5oNrXv5a6bmdsrUnfJ92qn4QSOM1rLCYBs7bM3uH0ds4NiFAVPA4wGD5UqzuFVuZ3nmBQa91jsrtej/0PFPGVzAuuT9kSG7rN0zSmjKo563wLfkFFVKOLTQNuXR2jIzV36sjWziu1RuysJrzteUuRQgDw==" FormaPago="03" NoCertificado="00001000000408621976" Certificado="MIIGFDCCA/ygAwIBAgIUMDAwMDEwMDAwMDA0MDg2MjE5NzYwDQYJKoZIhvcNAQELBQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3RyYWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRyaWJ1eWVudGUwHhcNMTcxMjE4MTgxNTU3WhcNMjExMjE4MTgxNTU3WjCBtDEeMBwGA1UEAxMVQ09SUE9SQVRJVk8gSkVDSU1BIFNDMR4wHAYDVQQpExVDT1JQT1JBVElWTyBKRUNJTUEgU0MxHjAcBgNVBAoTFUNPUlBPUkFUSVZPIEpFQ0lNQSBTQzElMCMGA1UELRMcQ0pFMTYxMDIwSUg4IC8gQ0FSTDQ4MDExOUI2NDEeMBwGA1UEBRMVIC8gQ0FSTDQ4MDExOU1HUkJORzA4MQswCQYDVQQLEwIwMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALom3i2pAHXR9m2YB4OhDwhNpPi+jAUjGyFiFzl/fcnK/KXm6LDY6WwD3hPCcWViHv//BNmDDAoE5UWZZbNkacGyFoVmlNOb/d4Wo9YSZ93xkENViozENvR3fr2OJOMJQ9XdrOoTUNASdhaBweCX4CbGd2xH9UPGqaErVxzCqKvsrmeiekZ3iyCSEqHFyDOM8WuWPo2ogdnnOs18ZYNYIfAis1B+bkUz9dSNfk/XnToNwzcmEPfCZziEMnQXsOP5HMtGlP8o62bT+UWpcrlSvTThvbLXJmbk1vPer6xCLmtYcSIsIlwPnc3Ly1vRpRLSuooHfnIk1R3Xt/vGbTOz96ECAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQELBQADggIBAG4WO2JrlZJM2Twf/oaPBLpbXkg2XjOqkR6veCS1ue+uhSkeR5yi/ICOXMYhmuEvcOfXwQJwmH410RCwWevj9KdzDGfkefY5o49gYKN17zfi2nIbINY7GaFYZvmhVX0srMKBErDplfOt8+MD9rJeCYLJ7s6UHJ45Jx/E0TlXQwiMLs7CKevCfPGmn7DjcDGNLjjGrDN87dGdXLTPozxsvgW61a3iF6L2YbVMdh7VMOtA6nAoUNgLsY5J0zNGH+YSq4XSIA2r2H7ohjLokvhSHzTcIi+vNX60gGEu8zljed4dmfcWceMzH1aqtt5S9aK3EuaFlFP5o8aiUYXcwX0Ek1o/7cAvNxqwE4vOVPTq89qGYWEKU9sHO8KuDgspiwfsFw62aHvw9J5+0PfPNz19bd1xEXxdzUQh1Mkv5Dgid0RFtz8GeA3ALTHjpfBG/C80Q3g6XnLGGCyfKBz8wwXyKFG8kql7nN4c40TW41jO7MhYY3yKuwIbML0kuApQW4KLkyfNRQ9jt3qRSow9+HmlZDYvLPs9tBQX4hZ0z6OLHgMz6AGOxYaN3aGRhUacDC/vE+yzvREmKFICxwAzuBgV4NXqYkgd/4Ifm2m/wrk3+Poox8VttEleV+k5hR35S4sosDhTtn1uNz7a9U9xYgl9C8DbgNKdrL9QYe94GXytrFXS" SubTotal="3203.74" Descuento="0" Moneda="MXN" TipoCambio="1" Total="3716.34" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="39000"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd"
+  xmlns:cfdi="http://www.sat.gob.mx/cfd/3">
+  <cfdi:Emisor Rfc="CJE161020IH8" Nombre="Corporativo Jecima, S.C." RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="BAI0" Nombre="Banco Azteca S.A. Institución de Banca Múltiple" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="80121610" Cantidad="1" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="HONORARIOS SIN RETENCION-HONORARIOS SEGMENTO 26 39 SEMANA 12" ValorUnitario="3203.74" Importe="3203.74" Descuento="0">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3203.74" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="512.5984" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="512.60">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="512.60" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="AE" FechaTimbrado="2020-04-02T13:59:43" RfcProvCertif="INT020124V62" SelloCFD="WfC8T0wdLpjE2NWRV1J89PSJodNoggXxP22tGNPtc9EugjeFGvdW7+zM10SSe3xijCPSsDNtND+eQvCihY/wh3cqO1Z3W1rmirfR6n4ysuk0B0YHsiiy+gQ9ZWtJ3XKuAeT3SQ4FYrkXhg4y9KzlMxO2krHcrDYE8yG0Iebp28TtlkdRx4qlwFPPjr7JL5oNrXv5a6bmdsrUnfJ92qn4QSOM1rLCYBs7bM3uH0ds4NiFAVPA4wGD5UqzuFVuZ3nmBQa91jsrtej/0PFPGVzAuuT9kSG7rN0zSmjKo563wLfkFFVKOLTQNuXR2jIzV36sjWziu1RuysJrzteUuRQgDw==" NoCertificadoSAT="00001000000404598147" SelloSAT="zPQhuD8LTUM88WD7VTvlFwX0myVB1nLYe8M12LtlMx9vNJHLuzc09tFZ/ZLRuaCCNjkp2jSzOx0OkIiHNmB2YVUsY45fIbmX0DnM57R8lfLJvdwe6U0c6Z9yiDtALv6Wd+OMG3mVau4gF1Lp8msCE0feBNx9zrpmS+6mOICvYrtQhFWHQyGUztec93iPYhMRDY5UK3Xo07/qGymB9KxbWzHcoZF0W2oYk0ITDi+A8tfh9nVKOmc1yUFokdpwZmusb/cBJg0Ysxm8JNhToSzecnvGjDTpHctuV0iol9r9yAqHAmgDpgkTpsMhBLsSxp14Av/K0hE/AsdawyfAzE8n7Q==" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+      xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
