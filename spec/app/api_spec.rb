@@ -12,6 +12,17 @@ describe FacturaValidadorAPI do
       expect(last_response.status).to eq 200
     end
 
+    it "receives and validates xml with status code 200" do
+      invoice = Nokogiri::XML(File.open("facturas/invoice_example.xml"))
+      post "/validarFactura", invoice.to_xml
+      expect(last_response.status).to eq 200
+    end
+
+    it "receives and validates invalid xml with status code 450" do
+      invoice = Nokogiri::XML(File.open("facturas/invoice_example_bad.xml"))
+      post "/validarFactura", invoice.to_xml
+      expect(last_response.status).to eq 450
+    end
   end
 
   context "almacenarFactura" do

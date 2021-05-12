@@ -6,6 +6,11 @@ class FacturaValidadorAPI < Sinatra::Base
     request.body
   end
 
+  post "/validarFactura" do
+    content_type :xml
+    200
+  end
+
   post "/almacenarFactura" do
   end
 end
