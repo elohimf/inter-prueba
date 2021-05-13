@@ -18,6 +18,14 @@ class FacturaValidadorAPI < Sinatra::Base
   post "/almacenarFactura" do
     content_type :xml
     invoice = XSDInvoice.new(request.body)
+    if invoice.validate
+      begin
         200
+      rescue
+        450
+      end
+    else
+      450
+    end
   end
 end

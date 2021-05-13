@@ -9,11 +9,12 @@ class XSDInvoice
     # Por ahora se considera al schema como 'trusted', aunque este endpoint es potencialmente inseguro.
     @schema = Nokogiri::XML::Schema.new(File.open("facturas/cfdv33.xsd.xml"), @options)
     @invoice = Nokogiri::XML(invoice_xml)
+    @namespaces = @invoice.collect_namespaces
   end
 
   def validate
     # El timbre es un schema diferente, por lo que se valida por separado
-    timbre = @invoice.at_xpath("//tfd:TimbreFiscalDigital")
+    timbre = @invoice.at_xpath("//tfd:TimbreFiscalDigital", @namespaces)
     timbreSchema = Nokogiri::XML::Schema(URI.open(timbre["xsi:schemaLocation"].split[1]), @options)
     timbre.remove_attribute("schemaLocation")
     invoice_copy = @invoice.clone
