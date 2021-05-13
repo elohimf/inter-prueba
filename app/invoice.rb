@@ -12,5 +12,13 @@ class XSDInvoice
   end
 
   def validate
+    # El timbre es un schema diferente, por lo que se valida por separado
+    timbre = @invoice.at_xpath("//tfd:TimbreFiscalDigital")
+    timbreSchema = Nokogiri::XML::Schema(URI.open(timbre["xsi:schemaLocation"].split[1]), @options)
+    timbre.remove_attribute("schemaLocation")
+    invoice_copy = @invoice.clone
+    invoice_copy.at_xpath("//cfdi:Complemento").remove
+
+    @schema.validate(invoice_copy).empty? and timbreSchema.validate(Nokogiri::XML(timbre.to_xml)).empty?
   end
 end

@@ -38,7 +38,16 @@ describe FacturaValidadorAPI do
   end
 
   context "almacenarFactura" do
+    it "fails with status code 450 for bad input" do
+      invoice = Nokogiri::XML(File.open("facturas/invoice_example_bad.xml"))
+      post "/almacenarFactura", invoice.to_xml
+      expect(last_response.status).to eq 450
+    end
+
     it "stores xml for a report" do
+      invoice = Nokogiri::XML(File.open("facturas/invoice_example.xml"))
+      post "/almacenarFactura", invoice.to_xml
+      expect(last_response.status).to eq 200
     end
   end
 end
