@@ -18,5 +18,14 @@ describe XSDInvoice do
     end
   end
   context "validate" do
+    it "returns true for a good file" do
+      invoice = XSDInvoice.new(File.open(xsd_invoice))
+      expect(invoice.validate).to be true
+    end
+
+    it "returns false for a bad file" do
+      invoice = XSDInvoice.new(File.open(xsd_invoice_bad))
+      expect(invoice.validate).to be false
+    end
   end
 end
