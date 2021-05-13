@@ -15,3 +15,7 @@ gem "rspec", "~> 3.10", :group => [:development, :test]
 gem "rufo", "~> 0.13.0", :group => [:development, :test]
 
 gem "thin", "~> 1.8"
+
+gem "activerecord", "~> 6.1"
+
+gem "sqlite3", "~> 1.4"

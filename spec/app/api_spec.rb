@@ -4,6 +4,18 @@ require "./migrations"
 describe FacturaValidadorAPI do
   let(:app) { FacturaValidadorAPI.new }
 
+  before(:all) do
+    CreateFacturasTable.migrate(:up)
+    CreateTimbresTable.migrate(:up)
+    CreateConceptosTable.migrate(:up)
+  end
+
+  after(:all) do
+    CreateFacturasTable.migrate(:down)
+    CreateTimbresTable.migrate(:down)
+    CreateConceptosTable.migrate(:down)
+  end
+
   context "validarFactura" do
     it "receives and prints xml" do
       # Solo se usa para probar que el servidor funcione de la forma mas simple posible. En produccion usualmente no añadiria esta prueba.

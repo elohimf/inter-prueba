@@ -1,10 +1,25 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    activemodel (6.1.3.2)
+      activesupport (= 6.1.3.2)
+    activerecord (6.1.3.2)
+      activemodel (= 6.1.3.2)
+      activesupport (= 6.1.3.2)
+    activesupport (6.1.3.2)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+      zeitwerk (~> 2.3)
+    concurrent-ruby (1.1.8)
     daemons (1.4.0)
     diff-lcs (1.4.4)
     eventmachine (1.2.7)
+    i18n (1.8.10)
+      concurrent-ruby (~> 1.0)
     mini_portile2 (2.5.1)
+    minitest (5.14.4)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     nokogiri (1.11.3)
@@ -36,21 +51,27 @@ GEM
       rack (~> 2.2)
       rack-protection (= 2.1.0)
       tilt (~> 2.0)
+    sqlite3 (1.4.2)
     thin (1.8.0)
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0, >= 1.0.4)
       rack (>= 1, < 3)
     tilt (2.0.10)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
+    zeitwerk (2.4.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord (~> 6.1)
   nokogiri (~> 1.11)
   rack-test (~> 1.1)
   rspec (~> 3.10)
   rufo (~> 0.13.0)
   sinatra (~> 2.1)
+  sqlite3 (~> 1.4)
   thin (~> 1.8)
 
 BUNDLED WITH

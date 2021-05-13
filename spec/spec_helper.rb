@@ -17,6 +17,13 @@ ENV["RACK_ENV"] = "test"
 require "./config/environment"
 require "./app/api"
 require "yaml"
+require "sqlite3"
+require "active_record"
+require "./app/model/timbre"
+require "./app/model/factura"
+require "./app/model/concepto"
+db_config = YAML::load(File.open("./config/database.yaml"))
+ActiveRecord::Base.establish_connection(db_config[ENV["RACK_ENV"]])
 RSpec.configure do |config|
   config.include Rack::Test::Methods
   # rspec-expectations config goes here. You can use an alternate
