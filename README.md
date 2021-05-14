@@ -34,6 +34,8 @@ $ docker exec -it inter-prueba /bin/sh
 /app # 
 ```
 
+Ahi, puede correrse `sqlite3 facturas.db` para revisar que en efecto los datos se guardaron en la base de datos.
+
 Por supuesto, la aplicación puede correrse de forma tradicional. Para ello, se instalan dependencias y luego se corre el servidor:
 ```shell
 $ bundle install
