@@ -42,12 +42,18 @@ describe FacturaValidadorAPI do
       invoice = Nokogiri::XML(File.open("facturas/invoice_example_bad.xml"))
       post "/almacenarFactura", invoice.to_xml
       expect(last_response.status).to eq 450
+      expect(Factura.all.length).to eq 0
+      expect(Timbre.all.length).to eq 0
+      expect(Concepto.all.length).to eq 0
     end
 
     it "stores xml for a report" do
       invoice = Nokogiri::XML(File.open("facturas/invoice_example.xml"))
       post "/almacenarFactura", invoice.to_xml
       expect(last_response.status).to eq 200
+      expect(Factura.all.length).to eq 1
+      expect(Timbre.all.length).to eq 1
+      expect(Concepto.all.length).to eq 1
     end
   end
 end

@@ -20,6 +20,7 @@ class FacturaValidadorAPI < Sinatra::Base
     invoice = XSDInvoice.new(request.body)
     if invoice.validate
       begin
+        Factura.store(invoice)
         200
       rescue
         450
